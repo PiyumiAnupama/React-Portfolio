@@ -3,10 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 
 import Particle from "../Particle";
 
-import ccgc from "../../Assets/ccgc.jfif";
-import japura from "../../Assets/j.png";
-import vta from "../../Assets/vt.jfif";
-import sb from "../../Assets/sa.jfif";
 
 function Project() {
   return (
