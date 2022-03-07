@@ -4,11 +4,12 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 
 import leaf from "../../Assets/Projects/7.png";
-import emotion from "../../Assets/Projects/emotion.jpeg";
-import editor from "../../Assets/Projects/7.png";
+import emotion from "../../Assets/Projects/10.png";
+import editor from "../../Assets/Projects/8.png";
 import chatify from "../../Assets/Projects/6.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import suicide from "../../Assets/Projects/9.png";
+import bitsOfCode from "../../Assets/Projects/12.png";
+import em from "../../Assets/Projects/11.png";
 
 function Projects() {
   return (
@@ -83,10 +84,10 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={em}
               isBlog={false}
               title="Graphic designs"
-              description="Flyers,Posters,logos, using photoshop & Illustrator."
+              description="Flyers, Posters, logos, using photoshop & Illustrator."
               link="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
             />
           </Col>

@@ -38,7 +38,7 @@ function App() {
           <Route path="/project" component={Project} />
           <Route path="/about" component={About} />
           <Route path="/pr" component={Projects} />
-          <Route path="/resume" component={contact} />
+         
         </Switch>
         <Footer />
       </div>

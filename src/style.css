@@ -754,10 +754,12 @@ h4{
 .card {
   box-shadow: #623686;
   transition: 0.3s;
-  width: 100px;
+  width: 100% !important;
+  height: 100% !important;
+
   border-radius: 5px;
-  margin-left: 100px;
-  margin-bottom: 10px;
+
+   margin-bottom: 10px;
 }
 
 
@@ -767,8 +769,11 @@ h4{
   padding: 2px 16px;
   background-color:#0c0513;
   border-radius: 10px;
-  height: 100px;
-  width: 200px;
+  height: 100%;
+  width: 300%;
+  align-items: center;
+  justify-content: center;
+  
   
 }
 
@@ -776,7 +781,7 @@ h4{
 
 .containerrr {
   width: 500px;
-  margin-left: 300px;
+  
   background-color: #ddd;
   border-radius: 100px;
 }

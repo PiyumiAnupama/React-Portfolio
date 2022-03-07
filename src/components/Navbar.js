@@ -61,6 +61,15 @@ function NavBar() {
                 <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
               </Nav.Link>
             </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/pr"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillContacts style={{ marginBottom: "2px" }} /> Projects
+              </Nav.Link>
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -85,27 +94,10 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/pr"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiFillContacts style={{ marginBottom: "2px" }} /> Projects
-              </Nav.Link>
-            </Nav.Item>
+            
            
 
             
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/resume"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiFillContacts style={{ marginBottom: "2px" }} /> Contact
-              </Nav.Link>
-            </Nav.Item>
             
             <Nav.Item>
             <ResumeNew />
