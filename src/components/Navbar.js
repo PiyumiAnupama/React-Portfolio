@@ -85,7 +85,15 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-           
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/pr"
+                onClick={() => updateExpanded(false)}
+              >
+                <AiFillContacts style={{ marginBottom: "2px" }} /> Projects
+              </Nav.Link>
+            </Nav.Item>
            
 
             

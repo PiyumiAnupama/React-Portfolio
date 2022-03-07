@@ -447,6 +447,7 @@ html {
   padding-top: 150px !important;
   padding-bottom: 30px !important;
   background-image: var(--section-background-color) !important;
+
 }
 
 .project-card {
@@ -455,6 +456,8 @@ html {
   padding-left: 25px !important;
   padding-right: 25px !important;
   height: auto !important;
+  width: auto !important;
+ 
   color: #700c86;
 }
 
@@ -465,6 +468,8 @@ html {
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
   height: 100% !important;
+  width: 100% !important;
+  margin-right: 10px;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;

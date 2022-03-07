@@ -4,8 +4,7 @@ import myImg from "../../Assets/3.png";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -22,8 +21,13 @@ function Home2() {
              I'm an undergraduate of BSc (Hons) in Information Technology from Faculty of Humanities and 
              Social Sciences, at University Of Sri Jayewardenepura.
               <br />
-              <br />While graphic design and cording are my two passions, I also enjoy watching movies, reading novels
-               and traveling. 
+              <br />While graphic design and cording are my two passions, I also enjoy watching movies, 
+              reading novels and traveling. 
+              <br></br><br></br>I am a young enthusiastic individual who always seeks for the 
+              opportunity. Therefore I have the ultimate intention of counting doing my stuff well.I really 
+              like to meet and work with different people.I am much interested in developing new things which
+               excite me a lot.
+
               
               
              

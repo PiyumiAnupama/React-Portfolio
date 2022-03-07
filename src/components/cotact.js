@@ -1,57 +1,87 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, CardColumns } from "react-bootstrap";
+import Particle from "./Particle";
 
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+import laptopImg from "../Assets/about.png";
 
 function contact() {
-    return (
-        <Container fluid className="resume-section">
-        <Row>
-          <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
-            <p>
-              <span className="purple">Anupama</span> Piyadigama
-            </p>
-            <p>No 94D, Weyhena, Mattaka</p>
-            <p>070 3272432</p>
-            <div >
-            <p>Personal : <a href="mailto:piyumianupama99@gmail.com">piyumianupama99@gmail.com</a></p>
-            <p>University : <a href="mailto:96447@fhss.sjp.ac.lk">96447@fhss.sjp.ac.lk</a></p>
-             
-             </div>
-            <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/Piyadigama"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/piyumi-anupama-3449351b3"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <FaLinkedinIn />
-                </a>
-              </li>
-             
-            </ul>
-            <br></br> <br></br> <br></br> <br></br> <br></br> <br></br>
+  return (
+    <Container fluid className="about-section">
+      <Particle />
+      <Container>
+        <Row style={{ justifyContent: "center", padding: "10px" }}>
+          <Col
+            md={7}
+            style={{
+              justifyContent: "center",
+              paddingTop: "30px",
+              paddingBottom: "50px",
+            }}
+          >
+            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px",marginTop:"-40px" }}>
+              Working <strong className="purple">Experience</strong>
+            </h1>
+            <div className="gridd">
+            
+             <h3>Regional Development Bank - Internship</h3>
+             <h4>Trainee | 2019-2020</h4>
+          </div>
+
+          <br></br>
+
+          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" ,marginTop:"30px"}}>
+              Volunteer <strong className="purple">Experience</strong>
+            </h1>
+            <CardColumns>
+            <div class="card">
+            <div class="containerr">
+            <h5>IEE USJ Student Branch </h5>
+             <h6>Media crew member</h6> 
+            </div>
+            </div>
+            <div class="card">
+            <div class="containerr">
+            <h5>SEDS J'pura </h5>
+             <h6>Graphic Designer</h6>  
+            </div>
+            </div>
+            </CardColumns>
+            <CardColumns>
+            <div class="card">
+            <div class="containerr">
+            <h5>Japura Flames </h5>
+             <h6>Graphic Designer</h6> 
+            </div>
+            </div>
+            <div class="card">
+            <div class="containerr">
+            <h5>Japura Voice</h5>
+             <h6>Graphic Designer</h6>  
+            </div>
+            </div>
+            </CardColumns>
+          </Col>
+
+
+
+
+          <Col
+            md={5}
+            style={{ paddingTop: "120px", paddingBottom: "50px" }}
+            className="about-img"
+          >
+            <img src={laptopImg} alt="about" className="img-fluid" />
           </Col>
         </Row>
-        </Container>
-          );
-        }
+        
+        
+
+        
+
+       
+      </Container>
+      
+    </Container>
+  );
+}
         export default contact;
