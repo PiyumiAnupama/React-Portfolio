@@ -30,7 +30,7 @@ function About() {
        
 
           <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" ,marginTop:"30px"}}>
-              Volunteer <strong className="purple">Experience</strong>
+              Experiences
             </h1>
             <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
             <CardColumns >
